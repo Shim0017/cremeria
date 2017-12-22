@@ -1,0 +1,16 @@
+/*
+Theme Name: Proyecto Cremeria
+Author: Zoftware Zolution
+Description: Control de inventario y productos.
+Version: 1.0
+Text Domain: twentyseventeen
+Tags: theme
+*/
+
+.banner{
+    background: url("images/bg.png");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
