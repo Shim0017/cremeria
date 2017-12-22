@@ -21,17 +21,13 @@
             <!-- Menu -->
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <ul class="navbar-nav ml-auto text-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?php echo get_permalink( get_page_by_title( 'Ruta' ) )  ?>">Ruta</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?php echo get_permalink( get_page_by_title( 'Finca' ) )  ?>">Finca</a>
-                    </li>
                      <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                            Leche
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="<?php echo get_permalink( get_page_by_title( 'Ruta' ) )  ?>">Ruta</a>
+                            <a class="dropdown-item" href="<?php echo get_permalink( get_page_by_title( 'Finca' ) )  ?>">Finca</a>
                             <a class="dropdown-item" href="<?php echo get_permalink( get_page_by_title( 'Compra' ) )  ?>">Compra</a>
                             <a class="dropdown-item" href="<?php echo get_permalink( get_page_by_title( 'Calidad' ) )  ?>">Calidad</a>
                         </div>
